@@ -3,13 +3,16 @@ html *{
     letter-spacing: 0.05em;
 }
 
-
 body{
     margin:0;
     padding:0;
-    background-color: #3d3e49;
+    background-color: #333337;
 }
 
 a{
     text-align: center;
+}
+
+p{
+    color: #c8c8c8;
 }

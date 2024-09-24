@@ -1,6 +1,35 @@
 <template>
-  <span>首頁</span>
-  <span>者坦具拳船列活質稿館今黙長内急運。為変全軒禁報参事案程食言向校人者江全。覧空白月掲刊上世援終春主村国壌価式集方。試裏件著社戦成所働中場修重。各隊森答由学毎吉換真開創芸訃軽。食者共川住撮安骨壁真足上真悩公報。負挙名演善田問輪間第経暉発験買正勝努。表本野訪見東安際卒害態域。紙入組静可探月発浮監贈不始時体。
-
-転呼毎全波難御社賞球意掲氷宏載新町。取再覧景汐隊会著国人本詳康馬雫。対歓録嘆連罪軽準人正南歳京洗生社心連。開体談世憶錦雑医京作境日児茅佐索変部取商。論記流年強過会報曜面責住田両速世。集王録待商尽挙写連名案月抗依原。表見木康楽午宮恩際覚経見年置制過授。済米新気及夜状常著球注芸材昇認技再使。洪極族得行与申速終門危壁注旅。</span>
+  <div v-for="item in articles" class="bg-gray/20 p-5 rounded-md">
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.date }}</p>
+    <p>{{ item.text }}</p>
+  </div>
 </template>
+<script lang="ts" setup>
+const articles =[
+    {
+        title:"JavaScript - Promise 非同步物件使用方式及變體方法",
+        date:"2021-08-08",
+        category:"JavaScripts",
+        text:"非同步處理一直以來都是 JavaScript 開發者很常遇到的情境，在之前，我們很常使用 callback 去完成任務，當結構變得複雜時，容易形成所謂的 callback hell，造成程式碼難以維護；在 ES6 版本中，新增了 Promise 物件，它能夠將非同步流程包裝成簡潔的結構，並提供統一的錯誤處理機制，解決了傳統 callback hell 的問題。此篇將會解析 Promise 的處理流程與相關方法。"
+    },
+    {
+        title:"Promise 非同步物件使用方式及變體方法",
+        date:"2021-08-08",
+        category:"前端",
+        text:"非同步處理一直以來都是 JavaScript 開發者很常遇到的情境，在之前，我們很常使用 callback 去完成任務，當結構變得複雜時，容易形成所謂的 callback hell，造成程式碼難以維護；在 ES6 版本中，新增了 Promise 物件，它能夠將非同步流程包裝成簡潔的結構，並提供統一的錯誤處理機制，解決了傳統 callback hell 的問題。此篇將會解析 Promise 的處理流程與相關方法。"
+    },
+    {
+        title:"JavaScript - Promise 非同步物件使用方式及變體方法",
+        date:"2021-08-08",
+        category:"JavaScripts",
+        text:"非同步處理一直以來都是 JavaScript 開發者很常遇到的情境，在之前，我們很常使用 callback 去完成任務，當結構變得複雜時，容易形成所謂的 callback hell，造成程式碼難以維護；在 ES6 版本中，新增了 Promise 物件，它能夠將非同步流程包裝成簡潔的結構，並提供統一的錯誤處理機制，解決了傳統 callback hell 的問題。此篇將會解析 Promise 的處理流程與相關方法。"
+    },
+    {
+        title:"JavaScript - Promise 非同步物件使用方式及變體方法",
+        date:"2021-08-08",
+        category:"JavaScripts",
+        text:"非同步處理一直以來都是 JavaScript 開發者很常遇到的情境，在之前，我們很常使用 callback 去完成任務，當結構變得複雜時，容易形成所謂的 callback hell，造成程式碼難以維護；在 ES6 版本中，新增了 Promise 物件，它能夠將非同步流程包裝成簡潔的結構，並提供統一的錯誤處理機制，解決了傳統 callback hell 的問題。此篇將會解析 Promise 的處理流程與相關方法。"
+    },
+] 
+</script>
