@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   nuxt:
     specifier: ^3.13.0
@@ -6277,3 +6273,7 @@ packages:
       compress-commons: 6.0.2
       readable-stream: 4.5.2
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
