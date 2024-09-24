@@ -1,0 +1,15 @@
+html *{
+    font-family: Montserrat,Noto Sans TC,Noto Sans JP,Tahoma,Mitr,Sarabun,Bai Jamjuree,Microsoft JhengHei,SF Pro TC,sans-serif;
+    letter-spacing: 0.05em;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #3d3e49;
+}
+
+a{
+    text-align: center;
+}
